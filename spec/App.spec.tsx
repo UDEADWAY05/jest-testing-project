@@ -1,9 +1,15 @@
-import { render } from "@testing-library/react"
-import { App } from "../src/App"
-import '@testing-library/jest-dom';
+describe('Планирование тестов', () => {
+  it.todo('Добавлять новые задачи') 
+  it.todo('Просматривать список всех задач') 
+  it.todo('Отмечать задачи как выполненые')
+  it.todo('Удалять задачи')
+  it.todo('Фильтровать задачи по статусу (выполненные/невыполненные)')
 
-it('Проверка компонента', () => {
-  const view = render(<App />)
+ 
+  it.todo('Кнопка добавить')
 
-  expect(view.getByText(/Hello World!/)).toBeInTheDocument()
+  it.todo('Удалять задачу')
+  it.todo('Менять статус задачи')
+  it.todo('Кнопка фильтрации')
 })
+
