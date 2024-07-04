@@ -2,6 +2,8 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "allowJs": true,
+    "outDir": "./dist",
+    "rootDir": "./",
     "module": "CommonJS",
     "esModuleInterop": true,
     "moduleResolution": "Node",
@@ -10,6 +12,6 @@
     "sourceMap": true,
     "target": "ESNext",
   },
-  "include": ["src", "spec"],
-  "exclude": ["node_modules", "coverage"]
+  "include": ["src/**/*", "spec/**/*", "customMatchers.d.ts"],
+  "exclude": ["node_modules", "dist"]
 }

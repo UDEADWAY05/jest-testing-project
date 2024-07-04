@@ -1,0 +1,12 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+
+  padding: 24px;
+  max-width: 300px;
+}
+
+.input-field label {
+  font-size: 10px;
+  color: red;
+}
